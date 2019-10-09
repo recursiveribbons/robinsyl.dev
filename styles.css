@@ -8,6 +8,7 @@ html {
 
 body {
     font-family: Courier, "Courier New", monospace;
+    color: #ECEFF4;
     line-height: 1.5;
     margin: 0;
 }
@@ -68,6 +69,7 @@ nav > a {
 }
 
 .nav-item > img {
+    background-color: #D8DEE9;
     width: 70%;
     max-width: 100px;
     border-radius: 10%;
@@ -84,7 +86,7 @@ nav > a {
 }
 
 section#nav {
-    background-color: whitesmoke;
+    background-color: #4C566A;
 }
 
 section#code {
@@ -100,7 +102,7 @@ section#writing {
 }
 
 section#about {
-    background-color: #BEA6C3; /* London hue */
+    background-color: #8B5A95;
 }
 
 /*
@@ -117,5 +119,30 @@ section#about {
 
     .wrapper {
         padding: 8px;
+    }
+}
+
+/* I guess? */
+@media (prefers-color-scheme: light) {
+    body {
+        color: inherit;
+    }
+    .nav-item > img {
+        background-color: inherit;
+    }
+    section#nav {
+        background-color: whitesmoke;
+    }
+    section#code {
+        background-color: #9c27b0ab;
+    }
+    section#music {
+        background-color: #3854eea6;
+    }
+    section#writing {
+        background-color: #0087BDBD; /* London hue */
+    }
+    section#about {
+        background-color: #BEA6C3;
     }
 }
