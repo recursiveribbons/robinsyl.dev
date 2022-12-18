@@ -42,6 +42,17 @@ a:visited {
     max-height: 80%;
 }
 
+#angle {
+    transform: rotate(180deg);
+    fill: grey;
+    position: absolute;
+    bottom: 1em;
+    width: 10vw;
+    max-width: 10vh;
+    margin: auto;
+    filter: opacity(25%) blur(1px);
+}
+
 section {
     display: flex;
     justify-content: center;
