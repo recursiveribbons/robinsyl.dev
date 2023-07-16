@@ -109,12 +109,8 @@ section#music {
     background-color: #3f51b5;
 }
 
-section#writing {
-    background-color: #0087BD;
-}
-
 section#about {
-    background-color: #8B5A95;
+    background-color: #0087BD;
 }
 
 /*
@@ -151,10 +147,7 @@ section#about {
     section#music {
         background-color: #3854eea6;
     }
-    section#writing {
-        background-color: #006E99;
-    }
     section#about {
-        background-color: #BEA6C3;
+        background-color: #006E99;
     }
 }
