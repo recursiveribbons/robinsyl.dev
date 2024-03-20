@@ -1,0 +1,24 @@
+{
+    "sonas": [
+        {
+            "name": "Robin Syl",
+            "pronouns": "they/them",
+            "gender": "non-binary",
+            "species": "housecat",
+            "description": "A small purple cat",
+            "ref": "https://robinsyl.dev/ref.png",
+            "avatar": "http://robinsyl.dev/avatar.png",
+            "age": 5,
+            "birthdate": "February 1",
+            "colors": [
+                "#c787c5",
+                "#f9e5f1",
+                "#8757b5",
+                "#2646b4",
+                "#baa0ba",
+                "#5a441d",
+                "#d98e40"
+            ]
+        }
+    ]
+}
