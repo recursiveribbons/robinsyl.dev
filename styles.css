@@ -113,6 +113,10 @@ section#about {
     background-color: #0087BD;
 }
 
+section#music li small {
+    user-select: none;
+}
+
 /*
  * Display items vertically on smaller screens
  * I mean really, does anyone even have a device smaller than 300 pixels?
